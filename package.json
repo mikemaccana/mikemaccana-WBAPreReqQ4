@@ -1,0 +1,24 @@
+{
+  "name": "mikemaccana-wbaprereqq4",
+  "version": "1.0.0",
+  "description": "Web 3 builders alliance",
+  "main": "index.js",
+  "scripts": {
+    "keygen": "npx esrun ./keygen.ts",
+    "airdrop": "npx esrun ./airdrop.ts",
+    "transfer": "npx esrun ./transfer.ts",
+    "enroll": "npx esrun ./enroll.ts"
+  },
+  "keywords": [],
+  "author": "Mike MacCana <mike.maccana@solana.org",
+  "license": "MIT",
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.29.0",
+    "@digitak/esrun": "^3.2.25",
+    "@solana-developers/node-helpers": "^1.2.1",
+    "@solana/web3.js": "^1.87.6",
+    "@types/node": "^20.9.0",
+    "bs58": "^5.0.0",
+    "typescript": "^5.2.2"
+  }
+}
